@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Block access to sensitive directories
+Disallow: /.git/
+Disallow: /.htaccess
+Disallow: /.*
+
+# Sitemap location (update when you have one)
+# Sitemap: https://thingstodoinphx.com/sitemap.xml
